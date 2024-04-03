@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que bom que escolheu sim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            color: #ff6b6b;
+        }
+
+        img {
+            /* border-radius: 50%; Remova esta linha para deixar a imagem quadrada */
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        <style>.color-changing-text {
+            font-size: 24px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <h1>Para o meu melhor amigo🤍❤️</h1>
+    <img src="WhatsApp Image 2024-04-03 at 1.31.18 PM.jpeg" width="300" height="300">
+    <p class="color-changing-text">Obrigada por aceitar viver comigo pelo resto da nossa vida❤️</p>
+    <p class="color-changing-text">Saiba que você é meu porto seguro e que lhe amo muito🤍</p>
+    <p class="color-changing-text">Meu querido melhor amigo, quero que saiba o quanto você é especial para mim. Sua
+    presença na minha vida traz luz,
+    alegria e conforto. Em cada momento, em cada desafio, você esteve ao meu lado, me apoiando e me fazendo sentir
+    amada e valorizada.</p>
+
+    <p class="color-changing-text">É incrível como sua amizade é um refúgio seguro, um porto seguro em meio às
+        tempestades da vida. Sua companhia
+        aquece meu coração e sua presença ilumina meus dias.</p>
+
+    <p class="color-changing-text">Obrigado por estar sempre presente, por ouvir, compreender e compartilhar tanto amor
+        e cuidado. Ter você como meu
+        melhor amigo é um presente precioso que guardarei para sempre em meu coração.</p>
+
+    <p class="color-changing-text">Eu te amo mais do que palavras podem expressar, e agradeço todos os dias por ter
+        você ao meu lado. Que nossa
+        amizade continue crescendo e se fortalecendo, trazendo ainda mais felicidade e momentos inesquecíveis.</p>
+
+
+    <script>
+        const textElements = document.querySelectorAll('.color-changing-text');
+        const colors = ['red', 'blue', 'green', 'purple']; // Cores para o ciclo
+        let colorIndex = 0;
+
+        function changeColor() {
+            textElements.forEach(element => {
+                element.style.color = colors[colorIndex];
+            });
+
+            colorIndex = (colorIndex + 1) % colors.length; // Avança para a próxima cor
+        }
+
+        // Chama a função changeColor a cada 1 segundo para mudar a cor dos parágrafos
+        setInterval(changeColor, 1000);
+    </script>
+
+ <audio controls autoplay loop>
+    <source src="amigo-estou-aqui.mp3" type="audio/mp3">
+</audio>
+</body>
+
+</html>
